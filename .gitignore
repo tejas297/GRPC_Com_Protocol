@@ -1,0 +1,44 @@
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Java / Maven ----------
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper jar can be ignored if you don't commit wrappers
+**/.mvn/wrapper/maven-wrapper.jar
+
+# ---------- IDE: IntelliJ ----------
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# ---------- IDE: Eclipse / STS ----------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# ---------- IDE: NetBeans ----------
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# ---------- IDE: VS Code ----------
+.vscode/
+
+# ---------- Misc ----------
+*.swp
+*.swo
+
